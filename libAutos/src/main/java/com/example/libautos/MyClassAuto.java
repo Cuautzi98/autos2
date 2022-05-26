@@ -28,9 +28,9 @@ public class MyClassAuto {
         LocalDate date = LocalDate.now();
         Integer year = date.getYear();
         if (this.year<year) {
-            return Boolean.FALSE;
-        } else {
             return Boolean.TRUE;
+        } else {
+            return Boolean.FALSE;
         }
     };
 };
